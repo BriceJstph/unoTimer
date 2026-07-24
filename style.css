@@ -5,13 +5,14 @@ body{
 
 .buzzer {
     --buzzer-height: 50vh;
+    --buzzer-width: 80vw;
 
-    width: 80vw;
+    width: var(--buzzer-width);
     height: var(--buzzer-height);
 
     color: black;
-    font-size: calc(0.75 * var(--buzzer-height));
-    font-family: "Archivo Black", sans-serif;
+    font-size: calc(0.75 * min(var(--buzzer-height), var(--buzzer-width)));
+    font-family: "Carter One", system-ui;
 
     border: 5px solid black;
     border-radius: 20px;
@@ -27,15 +28,15 @@ body{
 }
 
 .input{
-    width: 5vw;
+    width: 7vw;
     font-size: 5vh;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Carter One", system-ui;
 }
 
 .timeToPlay{
     margin-top: 3vh;
     font-size: 5vh;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Carter One", system-ui;
 }
 
 .reset {
@@ -46,7 +47,7 @@ body{
 
     color: rgb(255, 255, 255);
     font-size: 5vh;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Carter One", system-ui;
 
     border: 3px solid rgb(0, 0, 0);
     border-radius: 7px;
