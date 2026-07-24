@@ -1,0 +1,61 @@
+
+body{
+    background-color: rgb(226, 255, 223);
+}
+
+.buzzer {
+    --buzzer-height: 70vh;
+
+    width: 70vw;
+    height: var(--buzzer-height);
+
+    color: black;
+    font-size: calc(0.75 * var(--buzzer-height));
+    font-family: "Archivo Black", sans-serif;
+
+    border: 5px solid black;
+    border-radius: 20px;
+
+    background-color: hsl(110, 100%, 40%);
+
+    display: flex;
+    justify-content: center; /* axe horiz*/
+    align-items: center; /*axe vertical*/
+    
+    cursor: pointer;
+    margin: auto;
+}
+
+.input{
+    width: 5vw;
+    font-size: 5vh;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.timeToPlay{
+    margin-top: 3vh;
+    font-size: 5vh;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.reset {
+    margin-top: 5vh;
+
+    width: 15vw;
+    height: 10vh;
+
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    font-family: "Archivo Black", sans-serif;
+
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 7px;
+
+    background-color: rgb(131, 131, 131);
+
+    display: flex;
+    justify-content: center; /* axe horiz*/
+    align-items: center; /*axe vertical*/
+    
+    cursor: pointer;
+}

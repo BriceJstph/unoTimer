@@ -1,2 +1,2 @@
 # unoTimer
-Simple configurable uno timer.
+Uno timer.
