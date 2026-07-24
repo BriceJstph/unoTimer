@@ -4,9 +4,9 @@ body{
 }
 
 .buzzer {
-    --buzzer-height: 70vh;
+    --buzzer-height: 50vh;
 
-    width: 70vw;
+    width: 80vw;
     height: var(--buzzer-height);
 
     color: black;
@@ -41,7 +41,7 @@ body{
 .reset {
     margin-top: 5vh;
 
-    width: 15vw;
+    width: 30vw;
     height: 10vh;
 
     color: rgb(255, 255, 255);
